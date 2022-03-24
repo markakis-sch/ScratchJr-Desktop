@@ -54,8 +54,20 @@ module.exports = {
 	    exe: 'ScratchJr.exe',
 	    setupIcon: iconFileWindows
 	},
-	electronInstallerDebian: {},
-	electronInstallerRedhat: {},
+        electronInstallerDebian: {
+		"name": "ScratchJr",
+		"icon": "src/icons/png/256x256.png",
+		"categories": [
+			"Education"
+		]
+	},
+	electronInstallerRedhat: {
+		"name": "ScratchJr",
+		"icon": "src/icons/png/256x256.png",
+		"categories": [
+			"Education"
+		]
+	},
 	github_repository: {
 		"owner": "jfo8000",
 		"name": "ScratchJr-Desktop"
